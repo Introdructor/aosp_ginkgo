@@ -144,6 +144,8 @@ audio.offload.video=true
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+vendor.voice.voip.conc.disabled=true
+vendor.audio.dolby.ds2.enabled=true
 
 # NFC
 ro.se.type=HCE,UICC
