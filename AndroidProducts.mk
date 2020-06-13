@@ -1,8 +1,8 @@
 #
-# Copyright (C) 2019 The Aosp Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ginkgo.mk
+    $(LOCAL_DIR)/lineage_ginkgo.mk
