@@ -1635,9 +1635,11 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
-# Gralloc - source built with raw10 fix - from Dyneteve
-vendor/lib/libgrallocutils.so|42b16c8bee0ad715c2509b526f4cb67c325cec31
-vendor/lib64/libgrallocutils.so|175cce1c7b7cb20c745f39b84201936d5629937b
+# Graphics - QTI Mapper - from laurus-user 10 QKQ1.190910.002 20.6.17
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so|8981bf6a014eff86006a55d41ba5239fa28c55a3
+vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so|d823745e69ce1bd9a154c8320f5f97d5764f4fd9
+vendor/lib/libgrallocutils.so|9ec92f93fbcdc50146307c457e9ab9712bae0da8
+vendor/lib64/libgrallocutils.so|3e0dc02e6b89bdfd04bf299bc289b3ed43fc38ac
 
 # Graphics - from LA.UM.8.11.r1-03500-NICOBAR.0
 vendor/lib64/egl/eglSubDriverAndroid.so|d7e3af7f2f08c6a6d311f32ce1dc6646e054bb26
