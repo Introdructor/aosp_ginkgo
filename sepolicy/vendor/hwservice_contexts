@@ -6,3 +6,6 @@ vendor.goodix.hardware.interfaces.biometrics.fingerprint::IGoodixFingerprintDaem
 
 vendor.nxp.nxpese::INxpEse                                u:object_r:nxpese_hwservice:s0
 vendor.nxp.nxpnfc::INxpNfc                                u:object_r:nxpnfc_hwservice:s0
+
+# Dolby
+vendor.dolby.hardware.dms::IDms                                            u:object_r:hal_dms_hwservice:s0
