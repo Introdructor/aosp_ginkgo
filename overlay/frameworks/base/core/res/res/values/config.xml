@@ -43,4 +43,11 @@
 
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">28.0dp</dimen>
+
+    <!-- Workaround to trim baseband version's string of some devices with duplicated baseband string -->
+    <bool name="config_trim_baseband_version_string">true</bool>
+
+    <!-- override value to use for proximity sensor. -->
+    <string name="proximity_sensor_type" translatable="false">android.sensor.proximity</string>
+    <item name="proximity_sensor_threshold" translatable="false" format="float" type="dimen">5.0</item>
 </resources>
