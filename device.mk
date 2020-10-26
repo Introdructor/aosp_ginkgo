@@ -41,7 +41,8 @@ PRODUCT_COPY_FILES += \
 
 # Blur
 ro.sf.blurs_are_expensive=1 \
-ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.supports_background_blur=1 \
+debug.sf.disable_backpressure=1
 
 # Bootanimation
 #PRODUCT_COPY_FILES += \
