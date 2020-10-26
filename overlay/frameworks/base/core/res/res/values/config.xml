@@ -50,4 +50,7 @@
     <!-- override value to use for proximity sensor. -->
     <string name="proximity_sensor_type" translatable="false">android.sensor.proximity</string>
     <item name="proximity_sensor_threshold" translatable="false" format="float" type="dimen">5.0</item>
+    
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
