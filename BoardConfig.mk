@@ -44,6 +44,9 @@ TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
 #    $(DEVICE_PATH)/kernel-modules/rmnet_perf.ko \
 #    $(DEVICE_PATH)/kernel-modules/rmnet_shs.ko
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 402653184
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
